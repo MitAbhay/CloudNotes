@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router";
 
 const Login = () => {
-  const host = "http://localhost:5000";
+  const host ="https://cloudnotesbackend.herokuapp.com";
   const [Credentials, setCredentials] = useState({ email: "", password: "" });
   let history = useHistory();
 
